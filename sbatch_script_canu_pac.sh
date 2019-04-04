@@ -18,7 +18,7 @@ module load canu
 # Your commands
 
 #Correct Raw Reads
-canu  \
-  -p efaecium_canu_pac -d efaecium_canu_pac \
-  genomeSize=3.1m \
+canu  
+  -p efaecium_canu_pac -d efaecium_canu_pac
+  genomeSize=3.1m
   -pacbio-raw  *.fastq.gz
