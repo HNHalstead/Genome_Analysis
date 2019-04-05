@@ -17,7 +17,7 @@ module load bwa/0.7.17
 #Index reference genome as it is large
 #Map illumina reads to PacBio contigs
 
-bwa index efaecium_canu_pac.contigs.fasta
+bwa index -p efaecium_illum_pac_map efaecium_canu_pac.contigs.fasta
 bwa mem -M efaecium_canu_pac.contigs.fasta E745-1.L500_SZAXPI015146-56_clean_trim_f_paired.fq.gz E745-1.L500_SZAXPI015146-56_clean_trim_r_paired.fq.gz > aln-illumina_to_pac.sam
 
 #-M flags shorter split hits as secondary to longer hits
