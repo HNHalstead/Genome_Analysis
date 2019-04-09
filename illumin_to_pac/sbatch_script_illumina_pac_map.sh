@@ -1,7 +1,7 @@
 #!/bin/bash -l
 #SBATCH -A g2019003
 #SBATCH -p core
-#SBATCH -n 1
+#SBATCH -n 2
 #SBATCH -t 02:00:00
 #SBATCH -J hh_align_illum_pac_efaecium
 #SBATCH --mail-type=ALL
