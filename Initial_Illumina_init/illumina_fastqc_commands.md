@@ -1,6 +1,6 @@
 # Illumina DNA FastQC Commands
 
-### If module does't load correctly, this step can be done locally
+### If FastQC module does'nt load correctly, this step can be done locally
 
 #### Load Modules
 
