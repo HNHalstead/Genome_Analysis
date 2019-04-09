@@ -1,11 +1,20 @@
-#Running Trimmomatic on Illumina DNA Sequences in the Terminal
+# Running Trimmomatic on Illumina DNA Sequences in the Terminal
 
-###Queue for core allocation:
-salloc -A g22019003 -p core -n 1 -t 02:00:00
+### Queue for core allocation:
 
-###Load modules
-module load bioinfo-tools
-module load trimmomatic/0.36
+###### salloc -A g22019003 -p core -n 1 -t 02:00:00
 
-###Submit Batch Job
-sbatch sbatch_script_illumina.sh
+<br>
+
+### Load modules
+
+###### module load bioinfo-tools
+
+###### module load trimmomatic/0.36
+
+<br>
+
+### Submit Batch Job
+
+###### sbatch sbatch_script_illumina.sh
+ 
