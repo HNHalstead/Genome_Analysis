@@ -2,7 +2,7 @@
 
 ### Queue for core allocation:
 
-###### salloc -A g22019003 -p core -n 1 -t 02:00:00
+###### 'salloc -A g22019003 -p core -n 1 -t 02:00:00'
 
 <br>
 
