@@ -1,4 +1,4 @@
-# Running Trimmomatic on Illumina DNA Sequences in the Terminal
+# Running Trimmomatic on Illumina DNA Sequences
 
 ### Queue for core allocation:
 
@@ -8,13 +8,19 @@
 
 ### Load modules
 
-###### module load bioinfo-tools
+###### `module load bioinfo-tools`
 
-###### module load trimmomatic/0.36
+###### `module load trimmomatic/0.36`
+
+<br>
+
+### _*Format sh file if edited on Windows_
+
+###### `dos2unix sbatch sbatch_script_illumina.sh`
 
 <br>
 
 ### Submit Batch Job
 
-###### sbatch sbatch_script_illumina.sh
+###### `sbatch sbatch_script_illumina.sh`
  
