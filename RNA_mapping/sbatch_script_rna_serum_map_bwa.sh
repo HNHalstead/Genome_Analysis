@@ -2,12 +2,12 @@
 #SBATCH -A g2019003
 #SBATCH -p core
 #SBATCH -n 2
-#SBATCH -t 02:30:00
+#SBATCH -t 02:00:00
 #SBATCH -J hh_map_rna_Serum_efaecium_ERR1797969
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user halsteadholly73@gmail.com
 
-
+###Mapping RNA from Serum
 
 # Load modules
 module load bioinfo-tools
