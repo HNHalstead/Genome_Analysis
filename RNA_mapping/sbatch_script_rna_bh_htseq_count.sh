@@ -15,7 +15,7 @@ module load bioinfo-tools
 module load samtools/1.9
 module load htseq/0.9.1
 
-samtools view output_rna_bh_map_ERR1797972.bam | htseq-count --format bam output_rna_bh_map_ERR1797972.bam /home/hoha8653/GenomeAnalysis/genome_soft/map_illu_pac/combined_alignment/prokka_combined_align/e_faecium_combined_edited.gff > rna_bh_ERR1797972_counts.txt
+samtools view output_rna_bh_map_ERR1797972.bam | htseq-count --format bam --type CDS  output_rna_bh_map_ERR1797972.bam /home/hoha8653/GenomeAnalysis/genome_soft/map_illu_pac/combined_alignment/prokka_combined_align/e_faecium_combined_align_annot.gtf > rna_bh_ERR1797972_counts.txt
 #Option --order pos is used for htseq-count as bam was ordered by pos
 
 
@@ -24,10 +24,10 @@ module load bioinfo-tools
 module load samtools/1.9
 module load htseq/0.9.1
 
-samtools view output_rna_bh_map_ERR1797973.bam | htseq-count --format bam output_rna_bh_map_ERR1797973.bam /home/hoha8653/GenomeAnalysis/genome_soft/map_illu_pac/combined_alignment/prokka_combined_align/e_faecium_combined_edited.gff > rna_bh_ERR1797973_counts.txt
+samtools view output_rna_bh_map_ERR1797973.bam | htseq-count --format bam --type CDS output_rna_bh_map_ERR1797973.bam /home/hoha8653/GenomeAnalysis/genome_soft/map_illu_pac/combined_alignment/prokka_combined_align/e_faecium_combined_align_annot.gtf > rna_bh_ERR1797973_counts.txt
 
 module load bioinfo-tools
 module load samtools/1.9
 module load htseq/0.9.1
 
-samtools view output_rna_bh_map_ERR1797974.bam | htseq-count --format bam output_rna_bh_map_ERR1797974.bam /home/hoha8653/GenomeAnalysis/genome_soft/map_illu_pac/combined_alignment/prokka_combined_align/e_faecium_combined_edited.gff > rna_bh_ERR1797974_counts.txt
+samtools view output_rna_bh_map_ERR1797974.bam | htseq-count --format bam --type CDS output_rna_bh_map_ERR1797974.bam /home/hoha8653/GenomeAnalysis/genome_soft/map_illu_pac/combined_alignment/prokka_combined_align/e_faecium_combined_align_annot.gtf > rna_bh_ERR1797974_counts.txt
