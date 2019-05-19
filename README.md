@@ -28,7 +28,7 @@ FASTQ and FASTA files files of DNA, RNA, and Transposons
 ## Steps for Analysis
 
 
-1. Genome assemlby of Pac-Bio DNA reads using _Canu_  
+1. Genome assembly of Pac-Bio DNA reads using _Canu_  
 2. Vizualization of Illumina DNA sequences with _FastQC_  
 3. Trimmimg of Illumina reads using _Trimmomatic_  
 4. Mapping Illumina reads to Pac-Bio Assembly:  
