@@ -37,6 +37,15 @@ blastn -db e_faecium_ref_seq.fasta -query combined_alignment.fasta -outfmt 6 > e
 ```
 
 <br>
+
+loading modules for Artemis ACT
+
+```
+module load bioinfo-tools
+module load java
+module load artemis/16.0.0
+```
+
 Opening the Artemis ACT user interface
 
 ```
