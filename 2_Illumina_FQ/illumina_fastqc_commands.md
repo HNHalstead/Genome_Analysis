@@ -1,6 +1,6 @@
 # Illumina DNA FastQC Commands
 
-### If FastQC module does'nt load correctly, this step can be done locally
+### If FastQC module doesn't load correctly on UPPMAX, this step can be done locally
 
 #### Load Modules
 
