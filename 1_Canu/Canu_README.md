@@ -1,7 +1,8 @@
 # Running Canu on PacBio Paired Reads
 
  
-#### Convert file to Unix format
+#### Convert file to Unix format  
+###### This step is only required for files created on windows
 ```
 dos2unix sbatch_script_canu_pac.sh
 ```
