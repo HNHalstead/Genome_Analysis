@@ -4,7 +4,7 @@
 ## _Project Plan_
 
 
-For Reproducibility purposes, the steps completed have been provided in a detailed list below. The files in this repository arranged to reflect this and contiain further instruction within each folder
+For Reproducibility purposes, the steps completed have been provided in a  list below. The files in this repository arranged to reflect this and contain further instruction within each folder. Details about analysis and steps can be found on the wiki along with a more detailed project plan while further instruction on running code can be found in the _README.md_ files contained within each folder.
 
 
 ### Purpose:
